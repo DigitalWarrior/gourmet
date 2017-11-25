@@ -27,7 +27,7 @@ def expand_abbrevs ( line ):
     return line
 
 class DatabaseGrabber:
-    USDA_ZIP_URL = "http://www.nal.usda.gov/fnic/foodcomp/Data/SR17/dnload/sr17abbr.zip"
+    USDA_ZIP_URL = "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/dnload/sr28abbr.zip"
     ABBREV_FILE_NAME = "ABBREV.txt"
     DESC_FILE_NAME = "FOOD_DES.txt"
     WEIGHT_FILE_NAME = "WEIGHT.txt"
